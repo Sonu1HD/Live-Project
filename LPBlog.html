@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Page</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    .blog-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .blog-card img {
+      transition: transform 0.4s ease;
+    }
+
+    .blog-card:hover img {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  </head>
+
+  <body>
+
+    <!-- ================= Herosection ================= -->
+    <section class="bg-dark text-white text-center d-flex flex-column justify-content-center align-items-center"
+      style="background: url('https://jacoblund.com/cdn/shop/products/7973b397397c6ff99a0e30ced5648bfd.jpg?v=1689776652') center/cover no-repeat fixed; height: 90vh;">
+      <div class="bg-dark bg-opacity-50 p-5 rounded">
+        <h1 class="display-3 fw-bold">4achievers Blog</h1>
+        <p class="lead">Learn, Grow, and Explore with Our Online Education Resources</p>
+        <a href="BlogPage.html" class="btn btn-secondary btn-lg mt-3">Explore Blogs</a>
+      </div>
+    </section>
+
+    <!-- Blog Cards Section -->
+    <section id="blogs" class="container py-5">
+      <h2 class="text-center mb-5 fw-bold">✨ Latest Blog Posts</h2>
+      <div class="row g-4">
+
+        <!-- Card Template -->
+        <div class="col-md-4">
+          <div class="card blog-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="position-relative">
+              <img src="https://picsum.photos/600/400?tech" class="card-img-top" alt="Blog 1">
+              <span
+                class="badge bg-secondary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">E-Learning</span>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">How to Learn Effectively Online</h5>
+              <p class="card-text text-muted">Tips and tricks for maximizing productivity while studying through online
+                courses.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <a href="BlogPage.html" class="btn btn-sm btn-secondary rounded-pill">Read More</a>
+                <a href="BlogPage.html" class="text-secondary fs-4"><i class="bi bi-arrow-right-circle-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card blog-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="position-relative">
+              <img src="https://picsum.photos/600/400?students" class="card-img-top" alt="Blog 2">
+              <span class="badge bg-secondary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Platforms</span>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Top 10 E-Learning Platforms</h5>
+              <p class="card-text text-muted">Explore the best platforms to learn new skills and boost your career
+                opportunities.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <a href="blog2.html" class="btn btn-sm btn-secondary rounded-pill">Read More</a>
+                <a href="blog2.html" class="text-secondary fs-4"><i class="bi bi-arrow-right-circle-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card blog-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="position-relative">
+              <img src="https://picsum.photos/600/400?classroom" class="card-img-top" alt="Blog 3">
+              <span
+                class="badge bg-secondary text-dark position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Education</span>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">The Future of Online Education</h5>
+              <p class="card-text text-muted">A look into how e-learning is shaping the future of education worldwide.
+              </p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <a href="blog3.html" class="btn btn-sm btn-secondary rounded-pill">Read More</a>
+                <a href="blog3.html" class="text-secondary fs-4"><i class="bi bi-arrow-right-circle-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-4">
+          <div class="card blog-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="position-relative">
+              <img src="https://picsum.photos/600/400?coding" class="card-img-top" alt="Blog 4">
+              <span class="badge bg-secondary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Coding</span>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Coding Tips for Beginners</h5>
+              <p class="card-text text-muted">Learn how to start coding and build your first projects effectively.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <a href="blog4.html" class="btn btn-sm btn-secondary rounded-pill">Read More</a>
+                <a href="blog4.html" class="text-secondary fs-4"><i class="bi bi-arrow-right-circle-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-md-4">
+          <div class="card blog-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="position-relative">
+              <img src="https://picsum.photos/600/400?technology" class="card-img-top" alt="Blog 5">
+              <span
+                class="badge bg-secondary text-dark position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Tech</span>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Latest Tech Trends</h5>
+              <p class="card-text text-muted">Stay updated with cutting-edge trends in technology and innovation.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <a href="blog5.html" class="btn btn-sm btn-secondary rounded-pill">Read More</a>
+                <a href="blog5.html" class="text-secondary fs-4"><i class="bi bi-arrow-right-circle-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-md-4">
+          <div class="card blog-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="position-relative">
+              <img src="https://picsum.photos/600/400?innovation" class="card-img-top" alt="Blog 6">
+              <span
+                class="badge bg-secondary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Innovation</span>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Innovations in E-Learning</h5>
+              <p class="card-text text-muted">Discover innovative approaches transforming online education.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <a href="blog6.html" class="btn btn-sm btn-secondary rounded-pill">Read More</a>
+                <a href="blog6.html" class="text-secondary fs-4"><i class="bi bi-arrow-right-circle-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Pagination -->
+      <nav aria-label="Blog pagination" class="mt-4">
+        <ul class="pagination justify-content-center">
+          <!-- Previous -->
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">2</a>
+          </li>
+
+          <li class="page-item d-none d-md-block">
+            <a class="page-link" href="#">3</a>
+          </li>
+          <li class="page-item d-none d-lg-block">
+            <a class="page-link" href="#">4</a>
+          </li>
+          <li class="page-item d-none d-lg-block">
+            <span class="page-link">…</span>
+          </li>
+
+          <li class="page-item d-none d-sm-block">
+            <a class="page-link" href="#">47</a>
+          </li>
+
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    </div>
+    </section>
+
+  <!-- ================= Hero2 ================= -->
+<section class="position-relative overflow-hidden">
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="background: url('https://jacoblund.com/cdn/shop/products/7973b397397c6ff99a0e30ced5648bfd.jpg?v=1689776652') center/cover no-repeat fixed; height: 100vh;"></div>></div>
+  <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25"></div>
+
+  <div class="container position-relative py-5 py-lg-6">
+    <div class="row align-items-center g-4">
+      <div class="col-12 col-lg-7">
+        <div class="card border-0 shadow-lg">
+          <div class="card-body p-4 p-lg-5">
+            <span class="badge bg-warning text-dark mb-2">New articles weekly</span>
+            <h1 class="display-5 fw-semibold mb-3">Level up front‑end skills</h1>
+            <p class="lead text-muted mb-4">
+              Dive into concise tutorials, real projects, and interview prep on HTML, CSS, and JavaScript.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="#" class="btn btn-dark">Explore blog</a>
+              <a href="#" class="btn btn-outline-dark">See categories</a>
+            </div>
+
+            <div class="row text-center mt-4 g-3">
+              <div class="col-4">
+                <div class="h4 mb-0">120+</div>
+                <div class="small text-muted">Articles</div>
+              </div>
+              <div class="col-4">
+                <div class="h4 mb-0">35</div>
+                <div class="small text-muted">Guides</div>
+              </div>
+              <div class="col-4">
+                <div class="h4 mb-0">8</div>
+                <div class="small text-muted">Paths</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5">
+        <div class="rounded-4 overflow-hidden shadow-lg">
+          <div class="ratio ratio-1x1">
+            <img src="https://picsum.photos/800/800?random=77"
+                 class="w-100 h-100 object-fit-cover" alt="Students learning online">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-wrap gap-2 mt-4">
+      <a href="#" class="btn btn-outline-light btn-sm">HTML</a>
+      <a href="#" class="btn btn-outline-light btn-sm">CSS</a>
+      <a href="#" class="btn btn-outline-light btn-sm">JavaScript</a>
+      <a href="#" class="btn btn-outline-light btn-sm">Bootstrap</a>
+      <a href="#" class="btn btn-outline-light btn-sm">Career</a>
+    </div>
+  </div>
+</section>
+
+    <!-- ================= Footer ================= -->
+
+    <footer class="bg-transprent text-dark pt-5 pb-3">
+      <div class="container">
+        <div class="row text-center text-md-start justify-content-center">
+
+
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 px-4">
+            <h6 class="fw-bold fa-2x">Important Links</h6>
+            <ul class="list-unstyled">
+              <li><a href="/home" class="text-dark text-decoration-none">Home</a></li>
+              <li><a href="/about" class="text-dark text-decoration-none">About</a></li>
+              <li><a href="/blog" class="text-dark text-decoration-none">Blog <span
+                    class="badge bg-success">New</span></a></li>
+              <li><a href="/request-certificate" class="text-dark text-decoration-none">Request Certificate</a></li>
+              <li><a href="/verify-certificate" class="text-dark text-decoration-none">Verify Certificate</a></li>
+              <li><a href="/review" class="text-dark text-decoration-none">Review</a></li>
+              <li><a href="/csr-activity" class="text-dark text-decoration-none">CSR Activity</a></li>
+            </ul>
+
+            <div class="mt-3">
+              <a href="https://www.dmca.com/" target="_blank">
+                <img src="https://images.dmca.com/Badges/dmca_protected_16_120.png?ID=someid"
+                  alt="DMCA.com Protection Status" width="120">
+              </a>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 px-4">
+            <h6 class="fw-bold fa-2x">Course Categories</h6>
+            <ul class="list-unstyled">
+              <li><a href="/courses/data-science" class="text-dark text-decoration-none">Data Science</a></li>
+              <li><a href="/courses/cloud-computing" class="text-dark text-decoration-none">Cloud Computing</a></li>
+              <li><a href="/courses/software-testing" class="text-dark text-decoration-none">Software Testing</a></li>
+              <li><a href="/courses/data-analytics" class="text-dark text-decoration-none">Data Analytics</a></li>
+              <li><a href="/courses/full-stack" class="text-dark text-decoration-none">Full Stack Development</a></li>
+              <li><a href="/courses/rpa" class="text-dark text-decoration-none">RPA Robotics</a></li>
+              <li><a href="/courses/networking" class="text-dark text-decoration-none">Networking</a></li>
+              <li><a href="/courses/civil-design" class="text-dark text-decoration-none">Civil Design</a></li>
+              <li><a href="/courses/internship" class="text-dark text-decoration-none">Internship Training</a></li>
+              <li><a href="/courses/corporate" class="text-dark text-decoration-none">Corporate Training</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 px-4">
+            <h6 class="fw-bold fa-2x">India's Location</h6>
+            <ul class="list-unstyled">
+              <li>Noida</li>
+              <li>Greater Noida</li>
+              <li>Gaziabad</li>
+              <li>Delhi</li>
+              <li>Indore</li>
+              <li>Gurugram</li>
+              <li>Mumbai</li>
+              <li>Chandigarh</li>
+              <li>Mohali</li>
+              <li>Bangalore</li>
+              <li>Dehradun</li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 px-4">
+            <h6 class="fw-bold fa-2x">Social</h6>
+            <ul class="list-unstyled">
+              <li><a href="https://www.facebook.com/4Achiever" target="_blank" class="text-dark text-decoration-none"><i
+                    class="fab fa-facebook me-2"></i>Facebook</a></li>
+              <li><a href="https://www.instagram.com/4achieverstraining/" target="_blank"
+                  class="text-dark text-decoration-none"><i class="fab fa-instagram me-2"></i>Instagram</a></li>
+              <li><a href="https://www.linkedin.com/company/4achievers/" target="_blank"
+                  class="text-dark text-decoration-none"><i class="fab fa-linkedin me-2"></i>LinkedIn</a></li>
+              <li><a href="https://x.com/4achievers1" target="_blank" class="text-dark text-decoration-none"><i
+                    class="fab fa-twitter me-2"></i>Twitter</a></li>
+              <li><a href="https://www.quora.com/profile/4Achievers-Technology-Training-and-Placement" target="_blank"
+                  class="text-dark text-decoration-none"><i class="fab fa-quora me-2"></i>Quora</a></li>
+              <li><a href="https://www.youtube.com/channel/UCFb3wWRC4OsoiDufhiqhxYA" target="_blank"
+                  class="text-dark text-decoration-none"><i class="fab fa-youtube me-2"></i>Youtube</a></li>
+              <li><a href="https://www.urbanpro.com/noida/4-achievers-sector-2/6788920" target="_blank"
+                  class="text-dark text-decoration-none"><i class="fas fa-graduation-cap me-2"></i>Urban Pro</a></li>
+              <li><a href="https://www.sulekha.com/4achievers-pvt-ltd-sector-2-noida-10795540-contact-address"
+                  target="_blank" class="text-dark text-decoration-none"><i
+                    class="fas fa-briefcase me-2"></i>Sulekha</a>
+              </li>
+              <li><a
+                  href="https://www.justdial.com/Delhi/4achievers-Near-Priyagold-Noida-Sector-2/011PXX11-XX11-170412193117-U5Q1_BZDET"
+                  target="_blank" class="text-dark text-decoration-none"><i class="fas fa-phone me-2"></i>JustDial</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <div class="text-center bg-dark text-white p-4 mt-4">
+          <p>© 2025 4Achievers. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>

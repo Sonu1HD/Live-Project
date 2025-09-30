@@ -1,0 +1,144 @@
+:root {
+      --primary: #019ee2;
+      --primary-dark: #2f4cb3;
+      --primary-light: #5c7cfa;
+      --secondary: #6c757d;
+      --secondary-alt: #8a94a6;
+      --light: #f8f9fa;
+      --dark: #212529;
+      --dark-bg: #0f1117;
+      --darker-bg: #0a0c10;
+      --muted-text: #b8b8b8;
+      --accent: #7c3aed;
+      --accent-hover: #6d28d9;
+      --shadow: 0 6px 24px rgba(59, 91, 219, 0.08);
+      --footer-shadow: 0 -5px 25px rgba(0, 0, 0, 0.4);
+      --border-radius: 4px;
+      --footer-radius: 0px;
+      --transition: all 0.3s cubic-bezier(.4, 0, .2, 1);
+      --search-result-bg: #fff;
+      --search-result-shadow: 0 8px 32px rgba(59, 91, 219, 0.10);
+      --footer-link-radius: 8px;
+         --banner-title-size: clamp(1rem, 4vw + 1rem, 2rem);
+          --banner-desc-size: clamp(1rem, 2vw + 0.8rem, 1rem);
+          --banner-btn-size: clamp(0.95rem, 1vw + 0.9rem, 1rem);
+}
+#navbar {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width:700px){
+  #navbar{
+    flex-direction: row;
+  }
+}
+ 
+    .icon-circle :hover{
+      cursor: pointer;
+      background-color: #00c3e6;
+      color: #0f1117;
+    }
+
+    /* Floating box styling */
+   #queryBox {
+      position: fixed;
+      right: 20px;
+      bottom: 80px;
+      width: 300px;
+      display: none;
+      z-index: 1050;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      transition: all 0.4s ease-in-out;
+      opacity: 0;
+    }
+
+    /* Floating X button */
+    #toggleBtn {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    /* Show animation */
+    #queryBox.show {
+      display: block;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+      /* <!-- ================= circle-section ================= --> */
+
+    .step {
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+    .circle {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 15px;
+      border-radius: 50%;
+      background-color: #007bff; /* Bootstrap blue */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color: white;
+      font-size: 30px;
+    }
+    .circle span {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #003366;
+      color: #fff;
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    
+    .step:hover .circle {
+      background-color: white; /* Darker blue on hover */
+      transform: scale(1.1);
+      color: #0f1117;
+      box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+    }
+    .step:hover {
+      transform: translateY(-5px);
+    }
+    .step h5 {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    .step p {
+      font-size: 14px;
+      color: #555;
+    }
+
+      /* <!-- ================= Student-details-section ================= --> */
+     .hover-card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .hover-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15) !important;
+    }
+    
